@@ -5,9 +5,14 @@ int main (){
     int x;
     int centinaia = 0;
     int decine = 0;
-    cout << "Immetti il numero: ";
-    cin >> x;
-    if (x > 999 || x < -999)
+    while (x < -999 || x > 999){
+        cout << "Immetti il numero: ";
+        cin >> x;
+        if (x > 999 || x < -999){
+            system ("CLS");
+            cout << "Il numero deve essere compreso tra -999 e 999" << endl;
+        }
+    }
     if (x >= 0){
         while (x >= 100){
             x = x - 100;
