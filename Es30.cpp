@@ -7,6 +7,7 @@ int main (){
     int decine = 0;
     cout << "Immetti il numero: ";
     cin >> x;
+    if (x > 999 || x < -999)
     if (x >= 0){
         while (x >= 100){
             x = x - 100;
