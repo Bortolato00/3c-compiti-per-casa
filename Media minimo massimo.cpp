@@ -11,7 +11,8 @@ int main (){
     for(int i = 0; i < n; i++){
         system ("CLS");
         double x;
-        cout << "Immetti i vari numeri: " << endl;
+        cout << "Numeri immessi fin'ora: " << i << endl << endl;
+        cout << "Immetti il numero: ";
         cin >> x;
         if (i == 0){
             minore = x;
@@ -27,5 +28,6 @@ int main (){
     }
     cout << "Il numero minore e': " << minore << endl;
     cout << "Il numero maggiore e': " << maggiore << endl;
-    cout << "La media e': " << somma/n << endl;
+    cout << "La media e': " << somma/n << endl << endl;
+    system ("PAUSE");
 }

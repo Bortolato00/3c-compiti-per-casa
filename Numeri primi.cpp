@@ -1,15 +1,15 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 int main (){
-    double n = 0;
+    int n = 0;
     int div;
     cout << "Inserisci il numero: ";
     cin >> n;
     cout << endl;
-    div = n-1;
+    div = (int)sqrt(n);
     if (n != 1){
-
-        while ((int)n % div != 0){
+        while (n % div != 0){;
             div = div - 1;
          }
 

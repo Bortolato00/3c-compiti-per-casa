@@ -33,5 +33,6 @@ int main (){
     }
     cout << endl << "Le centinaia sono: " << centinaia << endl;
     cout << "Le decine sono: " << decine << endl;
-    cout << "le unita' sono: " << x;
+    cout << "le unita' sono: " << x << endl << endl;
+    system ("PAUSE");
 }
